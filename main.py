@@ -14,13 +14,12 @@ def generate_password():
 
     generated_password = []
 
-    if add_num == 'Y':
+    if add_num.lower() == 'y':
         characters.extend(numbers)
 
-    if add_special_char == 'Y':
+    if add_special_char.lower() == 'y':
         characters.extend(special_characters)
 
 
-
 if __name__ == "__main__":
-    generate_password()
+    print(generate_password())
