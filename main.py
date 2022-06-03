@@ -14,6 +14,13 @@ def generate_password():
 
     generated_password = []
 
+    if add_num == 'Y':
+        characters.extend(numbers)
+
+    if add_special_char == 'Y':
+        characters.extend(special_characters)
+
+
 
 if __name__ == "__main__":
     generate_password()
