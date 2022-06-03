@@ -20,6 +20,11 @@ def generate_password():
     if add_special_char.lower() == 'y':
         characters.extend(special_characters)
 
+    for _ in range(length):
+        generated_password.append(random.choice(characters))
+
+    return ''.join(generated_password)
+
 
 if __name__ == "__main__":
     print(generate_password())
