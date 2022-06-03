@@ -7,6 +7,14 @@ def generate_password():
     numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
     special_characters = ['!', '@', '#', '$', '%', '^', '&', '*']
 
+    length = int(input('How long do you want your password: '))
+    add_num = input('Do you want number in your password(Y/N): ')
+    add_special_char = input(
+        'Do you special character in your password(Y/N): ')
+
+
+
+
 
 if __name__ == "__main__":
     generate_password()
