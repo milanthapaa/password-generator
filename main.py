@@ -12,8 +12,7 @@ def generate_password():
     add_special_char = input(
         'Do you special character in your password(Y/N): ')
 
-
-
+    generated_password = []
 
 
 if __name__ == "__main__":
